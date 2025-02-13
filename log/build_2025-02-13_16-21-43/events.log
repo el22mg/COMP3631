@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (lab1) JobQueued: {'identifier': 'lab1', 'dependencies': OrderedDict()}
+[0.000256] (lab2) JobQueued: {'identifier': 'lab2', 'dependencies': OrderedDict()}
+[0.000334] (lab3) JobQueued: {'identifier': 'lab3', 'dependencies': OrderedDict()}
+[0.000409] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.000427] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000520] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_gazebo')])}
+[0.000542] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.037574] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.065144] (lab1) JobStarted: {'identifier': 'lab1'}
+[0.099330] (-) TimerEvent: {}
+[0.114579] (lab2) JobStarted: {'identifier': 'lab2'}
+[0.161388] (lab3) JobStarted: {'identifier': 'lab3'}
+[0.199510] (-) TimerEvent: {}
+[0.217713] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.220518] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node', '-DCMAKE_INSTALL_PREFIX=/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node'], 'cwd': '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '||/usr/bin/lesspipe.sh %s'), ('LMOD_DIR', '/usr/share/lmod/lmod/libexec'), ('MAIL', '/var/spool/mail/el22mg'), ('USER', 'el22mg'), ('HOSTNAME', 'uol-pc-055697.leeds.ac.uk'), ('XDG_SESSION_TYPE', 'x11'), ('LMOD_PKG', '/usr/share/lmod/lmod'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/.singularity.d/libs'), ('HOME', '/uolstore/home/users/el22mg'), ('OLDPWD', '/uolstore/home/users/el22mg/ros2_ws'), ('DESKTOP_SESSION', 'gnome'), ('USER_PATH', '/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/puppetlabs/bin:/uolstore/home/users/el22mg/.local/bin:/uolstore/home/users/el22mg/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin'), ('FPATH', '/usr/share/lmod/lmod/init/ksh_funcs'), ('PS1', '[COMP3631] Singularity> \\w $'), ('SYSTEMD_EXEC_PID', '22809'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/578558/bus'), ('COLORTERM', 'truecolor'), ('APPTAINER_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('LMOD_sys', 'Linux'), ('which_declare', 'declare -f'), ('SINGULARITY_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('LOGNAME', 'el22mg'), ('LMOD_VERSION', '8.7.55'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el22mg'), ('TERM', 'xterm-256color'), ('HISTCONTROL', 'ignoredups'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('GDM_LANG', 'en_GB.UTF-8'), ('APPTAINER_COMMAND', 'shell'), ('LMOD_SETTARG_FULL_SUPPORT', 'no'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b1f5aff_8a91_4b77_a644_17e0d0c430e6'), ('XDG_RUNTIME_DIR', '/run/user/578558'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('HISTSIZE', '1000'), ('APPTAINER_APPNAME', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LMOD_ROOT', '/usr/share/lmod'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XAUTHORITY', '/run/user/578558/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/578558/keyring/ssh'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'KEYRING:persistent:578558'), ('MODULEPATH_ROOT', '/usr/share/modulefiles'), ('GDMSESSION', 'gnome'), ('APPTAINER_CONTAINER', '/vol/scratch/SoC/COMP3631/comp3631.simg'), ('APPTAINER_BIND', '/run/user/578558,/etc/localtime'), ('LMOD_CMD', '/usr/share/lmod/lmod/libexec/lmod'), ('SINGULARITY_CONTAINER', '/vol/scratch/SoC/COMP3631/comp3631.simg'), ('BASH_ENV', '/usr/share/lmod/lmod/init/bash'), ('QT_IM_MODULE', 'ibus'), ('SINGULARITY_BIND', '/run/user/578558,/etc/localtime'), ('PWD', '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_fake_node'), ('APPTAINER_NAME', 'comp3631.simg'), ('XDG_DATA_DIRS', '/uolstore/home/users/el22mg/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('SINGULARITY_NAME', 'comp3631.simg'), ('COLCON', '1'), ('MANPATH', '/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6402'), ('MODULEPATH', '/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/modulefiles:/uollinapps/v2/current/uol/spack/el9/Core:/uollinapps/v2/current/uol/other/el9:/uollinapps/v2/current/soc/spack/el9/Core:/uollinapps/v2/current/soc/other:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core'), ('MODULESHOME', '/usr/share/Modules')]), 'shell': False}
+[0.290966] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.297299] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_gazebo'], 'cwd': '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '||/usr/bin/lesspipe.sh %s'), ('LMOD_DIR', '/usr/share/lmod/lmod/libexec'), ('MAIL', '/var/spool/mail/el22mg'), ('USER', 'el22mg'), ('HOSTNAME', 'uol-pc-055697.leeds.ac.uk'), ('XDG_SESSION_TYPE', 'x11'), ('LMOD_PKG', '/usr/share/lmod/lmod'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/.singularity.d/libs'), ('HOME', '/uolstore/home/users/el22mg'), ('OLDPWD', '/uolstore/home/users/el22mg/ros2_ws'), ('DESKTOP_SESSION', 'gnome'), ('USER_PATH', '/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/puppetlabs/bin:/uolstore/home/users/el22mg/.local/bin:/uolstore/home/users/el22mg/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin'), ('FPATH', '/usr/share/lmod/lmod/init/ksh_funcs'), ('PS1', '[COMP3631] Singularity> \\w $'), ('SYSTEMD_EXEC_PID', '22809'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/578558/bus'), ('COLORTERM', 'truecolor'), ('APPTAINER_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('LMOD_sys', 'Linux'), ('which_declare', 'declare -f'), ('SINGULARITY_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('LOGNAME', 'el22mg'), ('LMOD_VERSION', '8.7.55'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el22mg'), ('TERM', 'xterm-256color'), ('HISTCONTROL', 'ignoredups'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('GDM_LANG', 'en_GB.UTF-8'), ('APPTAINER_COMMAND', 'shell'), ('LMOD_SETTARG_FULL_SUPPORT', 'no'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b1f5aff_8a91_4b77_a644_17e0d0c430e6'), ('XDG_RUNTIME_DIR', '/run/user/578558'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('HISTSIZE', '1000'), ('APPTAINER_APPNAME', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LMOD_ROOT', '/usr/share/lmod'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XAUTHORITY', '/run/user/578558/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/578558/keyring/ssh'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'KEYRING:persistent:578558'), ('MODULEPATH_ROOT', '/usr/share/modulefiles'), ('GDMSESSION', 'gnome'), ('APPTAINER_CONTAINER', '/vol/scratch/SoC/COMP3631/comp3631.simg'), ('APPTAINER_BIND', '/run/user/578558,/etc/localtime'), ('LMOD_CMD', '/usr/share/lmod/lmod/libexec/lmod'), ('SINGULARITY_CONTAINER', '/vol/scratch/SoC/COMP3631/comp3631.simg'), ('BASH_ENV', '/usr/share/lmod/lmod/init/bash'), ('QT_IM_MODULE', 'ibus'), ('SINGULARITY_BIND', '/run/user/578558,/etc/localtime'), ('PWD', '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_gazebo'), ('APPTAINER_NAME', 'comp3631.simg'), ('XDG_DATA_DIRS', '/uolstore/home/users/el22mg/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('SINGULARITY_NAME', 'comp3631.simg'), ('COLCON', '1'), ('MANPATH', '/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6402'), ('MODULEPATH', '/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/modulefiles:/uollinapps/v2/current/uol/spack/el9/Core:/uollinapps/v2/current/uol/other/el9:/uollinapps/v2/current/soc/spack/el9/Core:/uollinapps/v2/current/soc/other:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core'), ('MODULESHOME', '/usr/share/Modules')]), 'shell': False}
+[0.309065] (-) TimerEvent: {}
+[0.409308] (-) TimerEvent: {}
+[0.509578] (-) TimerEvent: {}
+[0.609843] (-) TimerEvent: {}
+[0.710114] (-) TimerEvent: {}
+[0.810448] (-) TimerEvent: {}
+[0.910827] (-) TimerEvent: {}
+[1.011114] (-) TimerEvent: {}
+[1.111473] (-) TimerEvent: {}
+[1.212202] (-) TimerEvent: {}
+[1.312884] (-) TimerEvent: {}
+[1.413361] (-) TimerEvent: {}
+[1.450115] (lab2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/lab2', 'build', '--build-base', '/uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build', 'install', '--record', '/uolstore/home/users/el22mg/ros2_ws/src/build/lab2/install.log', '--single-version-externally-managed'], 'cwd': '/uolstore/home/users/el22mg/ros2_ws/src/lab2', 'env': {'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LMOD_DIR': '/usr/share/lmod/lmod/libexec', 'MAIL': '/var/spool/mail/el22mg', 'USER': 'el22mg', 'HOSTNAME': 'uol-pc-055697.leeds.ac.uk', 'XDG_SESSION_TYPE': 'x11', 'LMOD_PKG': '/usr/share/lmod/lmod', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/.singularity.d/libs', 'HOME': '/uolstore/home/users/el22mg', 'OLDPWD': '/uolstore/home/users/el22mg/ros2_ws', 'DESKTOP_SESSION': 'gnome', 'USER_PATH': '/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/puppetlabs/bin:/uolstore/home/users/el22mg/.local/bin:/uolstore/home/users/el22mg/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'FPATH': '/usr/share/lmod/lmod/init/ksh_funcs', 'PS1': '[COMP3631] Singularity> \\w $', 'SYSTEMD_EXEC_PID': '22809', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/578558/bus', 'COLORTERM': 'truecolor', 'APPTAINER_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LMOD_sys': 'Linux', 'which_declare': 'declare -f', 'SINGULARITY_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LOGNAME': 'el22mg', 'LMOD_VERSION': '8.7.55', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'el22mg', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignoredups', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'GDM_LANG': 'en_GB.UTF-8', 'APPTAINER_COMMAND': 'shell', 'LMOD_SETTARG_FULL_SUPPORT': 'no', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b1f5aff_8a91_4b77_a644_17e0d0c430e6', 'XDG_RUNTIME_DIR': '/run/user/578558', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'HISTSIZE': '1000', 'APPTAINER_APPNAME': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LMOD_ROOT': '/usr/share/lmod', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/578558/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'GNOME_TERMINAL_SERVICE': ':1.83', 'SSH_AUTH_SOCK': '/run/user/578558/keyring/ssh', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'KEYRING:persistent:578558', 'MODULEPATH_ROOT': '/usr/share/modulefiles', 'GDMSESSION': 'gnome', 'APPTAINER_CONTAINER': '/vol/scratch/SoC/COMP3631/comp3631.simg', 'APPTAINER_BIND': '/run/user/578558,/etc/localtime', 'LMOD_CMD': '/usr/share/lmod/lmod/libexec/lmod', 'SINGULARITY_CONTAINER': '/vol/scratch/SoC/COMP3631/comp3631.simg', 'BASH_ENV': '/usr/share/lmod/lmod/init/bash', 'QT_IM_MODULE': 'ibus', 'SINGULARITY_BIND': '/run/user/578558,/etc/localtime', 'PWD': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab2', 'APPTAINER_NAME': 'comp3631.simg', 'XDG_DATA_DIRS': '/uolstore/home/users/el22mg/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'SINGULARITY_NAME': 'comp3631.simg', 'COLCON': '1', 'MANPATH': '/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '6402', 'MODULEPATH': '/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/modulefiles:/uollinapps/v2/current/uol/spack/el9/Core:/uollinapps/v2/current/uol/other/el9:/uollinapps/v2/current/soc/spack/el9/Core:/uollinapps/v2/current/soc/other:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core', 'MODULESHOME': '/usr/share/Modules', 'PYTHONPATH': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages:'}, 'shell': False}
+[1.458184] (lab1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/lab1', 'build', '--build-base', '/uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build', 'install', '--record', '/uolstore/home/users/el22mg/ros2_ws/src/build/lab1/install.log', '--single-version-externally-managed'], 'cwd': '/uolstore/home/users/el22mg/ros2_ws/src/lab1', 'env': {'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LMOD_DIR': '/usr/share/lmod/lmod/libexec', 'MAIL': '/var/spool/mail/el22mg', 'USER': 'el22mg', 'HOSTNAME': 'uol-pc-055697.leeds.ac.uk', 'XDG_SESSION_TYPE': 'x11', 'LMOD_PKG': '/usr/share/lmod/lmod', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/.singularity.d/libs', 'HOME': '/uolstore/home/users/el22mg', 'OLDPWD': '/uolstore/home/users/el22mg/ros2_ws', 'DESKTOP_SESSION': 'gnome', 'USER_PATH': '/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/puppetlabs/bin:/uolstore/home/users/el22mg/.local/bin:/uolstore/home/users/el22mg/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'FPATH': '/usr/share/lmod/lmod/init/ksh_funcs', 'PS1': '[COMP3631] Singularity> \\w $', 'SYSTEMD_EXEC_PID': '22809', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/578558/bus', 'COLORTERM': 'truecolor', 'APPTAINER_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LMOD_sys': 'Linux', 'which_declare': 'declare -f', 'SINGULARITY_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LOGNAME': 'el22mg', 'LMOD_VERSION': '8.7.55', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'el22mg', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignoredups', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'GDM_LANG': 'en_GB.UTF-8', 'APPTAINER_COMMAND': 'shell', 'LMOD_SETTARG_FULL_SUPPORT': 'no', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b1f5aff_8a91_4b77_a644_17e0d0c430e6', 'XDG_RUNTIME_DIR': '/run/user/578558', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'HISTSIZE': '1000', 'APPTAINER_APPNAME': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LMOD_ROOT': '/usr/share/lmod', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/578558/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'GNOME_TERMINAL_SERVICE': ':1.83', 'SSH_AUTH_SOCK': '/run/user/578558/keyring/ssh', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'KEYRING:persistent:578558', 'MODULEPATH_ROOT': '/usr/share/modulefiles', 'GDMSESSION': 'gnome', 'APPTAINER_CONTAINER': '/vol/scratch/SoC/COMP3631/comp3631.simg', 'APPTAINER_BIND': '/run/user/578558,/etc/localtime', 'LMOD_CMD': '/usr/share/lmod/lmod/libexec/lmod', 'SINGULARITY_CONTAINER': '/vol/scratch/SoC/COMP3631/comp3631.simg', 'BASH_ENV': '/usr/share/lmod/lmod/init/bash', 'QT_IM_MODULE': 'ibus', 'SINGULARITY_BIND': '/run/user/578558,/etc/localtime', 'PWD': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab1', 'APPTAINER_NAME': 'comp3631.simg', 'XDG_DATA_DIRS': '/uolstore/home/users/el22mg/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'SINGULARITY_NAME': 'comp3631.simg', 'COLCON': '1', 'MANPATH': '/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '6402', 'MODULEPATH': '/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/modulefiles:/uollinapps/v2/current/uol/spack/el9/Core:/uollinapps/v2/current/uol/other/el9:/uollinapps/v2/current/soc/spack/el9/Core:/uollinapps/v2/current/soc/other:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core', 'MODULESHOME': '/usr/share/Modules', 'PYTHONPATH': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab1/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages:'}, 'shell': False}
+[1.464353] (lab3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/lab3', 'build', '--build-base', '/uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build', 'install', '--record', '/uolstore/home/users/el22mg/ros2_ws/src/build/lab3/install.log', '--single-version-externally-managed'], 'cwd': '/uolstore/home/users/el22mg/ros2_ws/src/lab3', 'env': {'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LMOD_DIR': '/usr/share/lmod/lmod/libexec', 'MAIL': '/var/spool/mail/el22mg', 'USER': 'el22mg', 'HOSTNAME': 'uol-pc-055697.leeds.ac.uk', 'XDG_SESSION_TYPE': 'x11', 'LMOD_PKG': '/usr/share/lmod/lmod', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/.singularity.d/libs', 'HOME': '/uolstore/home/users/el22mg', 'OLDPWD': '/uolstore/home/users/el22mg/ros2_ws', 'DESKTOP_SESSION': 'gnome', 'USER_PATH': '/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/puppetlabs/bin:/uolstore/home/users/el22mg/.local/bin:/uolstore/home/users/el22mg/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'FPATH': '/usr/share/lmod/lmod/init/ksh_funcs', 'PS1': '[COMP3631] Singularity> \\w $', 'SYSTEMD_EXEC_PID': '22809', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/578558/bus', 'COLORTERM': 'truecolor', 'APPTAINER_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LMOD_sys': 'Linux', 'which_declare': 'declare -f', 'SINGULARITY_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LOGNAME': 'el22mg', 'LMOD_VERSION': '8.7.55', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'el22mg', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignoredups', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'GDM_LANG': 'en_GB.UTF-8', 'APPTAINER_COMMAND': 'shell', 'LMOD_SETTARG_FULL_SUPPORT': 'no', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b1f5aff_8a91_4b77_a644_17e0d0c430e6', 'XDG_RUNTIME_DIR': '/run/user/578558', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'HISTSIZE': '1000', 'APPTAINER_APPNAME': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LMOD_ROOT': '/usr/share/lmod', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/578558/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'GNOME_TERMINAL_SERVICE': ':1.83', 'SSH_AUTH_SOCK': '/run/user/578558/keyring/ssh', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'KEYRING:persistent:578558', 'MODULEPATH_ROOT': '/usr/share/modulefiles', 'GDMSESSION': 'gnome', 'APPTAINER_CONTAINER': '/vol/scratch/SoC/COMP3631/comp3631.simg', 'APPTAINER_BIND': '/run/user/578558,/etc/localtime', 'LMOD_CMD': '/usr/share/lmod/lmod/libexec/lmod', 'SINGULARITY_CONTAINER': '/vol/scratch/SoC/COMP3631/comp3631.simg', 'BASH_ENV': '/usr/share/lmod/lmod/init/bash', 'QT_IM_MODULE': 'ibus', 'SINGULARITY_BIND': '/run/user/578558,/etc/localtime', 'PWD': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab3', 'APPTAINER_NAME': 'comp3631.simg', 'XDG_DATA_DIRS': '/uolstore/home/users/el22mg/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'SINGULARITY_NAME': 'comp3631.simg', 'COLCON': '1', 'MANPATH': '/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '6402', 'MODULEPATH': '/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/modulefiles:/uollinapps/v2/current/uol/spack/el9/Core:/uollinapps/v2/current/uol/other/el9:/uollinapps/v2/current/soc/spack/el9/Core:/uollinapps/v2/current/soc/other:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core', 'MODULESHOME': '/usr/share/Modules', 'PYTHONPATH': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab3/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages:'}, 'shell': False}
+[1.513407] (-) TimerEvent: {}
+[1.588986] (lab2) StdoutLine: {'line': b'running egg_info\n'}
+[1.589145] (lab1) StdoutLine: {'line': b'running egg_info\n'}
+[1.589209] (lab3) StdoutLine: {'line': b'running egg_info\n'}
+[1.589253] (lab2) StdoutLine: {'line': b'creating ../build/lab2/lab2.egg-info\n'}
+[1.589279] (lab3) StdoutLine: {'line': b'creating ../build/lab3/lab3.egg-info\n'}
+[1.589305] (lab1) StdoutLine: {'line': b'creating ../build/lab1/lab1.egg-info\n'}
+[1.590538] (lab3) StdoutLine: {'line': b'writing ../build/lab3/lab3.egg-info/PKG-INFO\n'}
+[1.590617] (lab2) StdoutLine: {'line': b'writing ../build/lab2/lab2.egg-info/PKG-INFO\n'}
+[1.591095] (lab1) StdoutLine: {'line': b'writing ../build/lab1/lab1.egg-info/PKG-INFO\n'}
+[1.596725] (lab3) StdoutLine: {'line': b'writing dependency_links to ../build/lab3/lab3.egg-info/dependency_links.txt\n'}
+[1.597475] (lab1) StdoutLine: {'line': b'writing dependency_links to ../build/lab1/lab1.egg-info/dependency_links.txt\n'}
+[1.597539] (lab2) StdoutLine: {'line': b'writing dependency_links to ../build/lab2/lab2.egg-info/dependency_links.txt\n'}
+[1.600311] (lab3) StdoutLine: {'line': b'writing entry points to ../build/lab3/lab3.egg-info/entry_points.txt\n'}
+[1.600735] (lab1) StdoutLine: {'line': b'writing entry points to ../build/lab1/lab1.egg-info/entry_points.txt\n'}
+[1.600955] (lab2) StdoutLine: {'line': b'writing entry points to ../build/lab2/lab2.egg-info/entry_points.txt\n'}
+[1.603364] (lab1) StdoutLine: {'line': b'writing requirements to ../build/lab1/lab1.egg-info/requires.txt\n'}
+[1.603399] (lab3) StdoutLine: {'line': b'writing requirements to ../build/lab3/lab3.egg-info/requires.txt\n'}
+[1.604518] (lab2) StdoutLine: {'line': b'writing requirements to ../build/lab2/lab2.egg-info/requires.txt\n'}
+[1.605988] (lab1) StdoutLine: {'line': b'writing top-level names to ../build/lab1/lab1.egg-info/top_level.txt\n'}
+[1.606104] (lab3) StdoutLine: {'line': b'writing top-level names to ../build/lab3/lab3.egg-info/top_level.txt\n'}
+[1.606516] (lab2) StdoutLine: {'line': b'writing top-level names to ../build/lab2/lab2.egg-info/top_level.txt\n'}
+[1.609995] (lab1) StdoutLine: {'line': b"writing manifest file '../build/lab1/lab1.egg-info/SOURCES.txt'\n"}
+[1.610111] (lab3) StdoutLine: {'line': b"writing manifest file '../build/lab3/lab3.egg-info/SOURCES.txt'\n"}
+[1.611121] (lab2) StdoutLine: {'line': b"writing manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'\n"}
+[1.613467] (-) TimerEvent: {}
+[1.620164] (lab3) StdoutLine: {'line': b"reading manifest file '../build/lab3/lab3.egg-info/SOURCES.txt'\n"}
+[1.620328] (lab1) StdoutLine: {'line': b"reading manifest file '../build/lab1/lab1.egg-info/SOURCES.txt'\n"}
+[1.620476] (lab2) StdoutLine: {'line': b"reading manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'\n"}
+[1.623782] (lab3) StdoutLine: {'line': b"writing manifest file '../build/lab3/lab3.egg-info/SOURCES.txt'\n"}
+[1.624928] (lab1) StdoutLine: {'line': b"writing manifest file '../build/lab1/lab1.egg-info/SOURCES.txt'\n"}
+[1.625586] (lab3) StdoutLine: {'line': b'running build\n'}
+[1.625731] (lab3) StdoutLine: {'line': b'running build_py\n'}
+[1.625837] (lab2) StdoutLine: {'line': b"writing manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'\n"}
+[1.626671] (lab1) StdoutLine: {'line': b'running build\n'}
+[1.626791] (lab1) StdoutLine: {'line': b'running build_py\n'}
+[1.627316] (lab3) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build\n'}
+[1.627419] (lab2) StdoutLine: {'line': b'running build\n'}
+[1.627511] (lab2) StdoutLine: {'line': b'running build_py\n'}
+[1.628165] (lab3) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build/lib\n'}
+[1.628288] (lab1) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build\n'}
+[1.629001] (lab1) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build/lib\n'}
+[1.629386] (lab3) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build/lib/lab3\n'}
+[1.629455] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build\n'}
+[1.630236] (lab1) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build/lib/lab1\n'}
+[1.630585] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib\n'}
+[1.631349] (lab3) StdoutLine: {'line': b'copying lab3/__init__.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build/lib/lab3\n'}
+[1.632096] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2\n'}
+[1.632589] (lab1) StdoutLine: {'line': b'copying lab1/__init__.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build/lib/lab1\n'}
+[1.634727] (lab2) StdoutLine: {'line': b'copying lab2/__init__.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2\n'}
+[1.636529] (lab3) StdoutLine: {'line': b'copying lab3/firstwalk.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build/lib/lab3\n'}
+[1.637073] (lab1) StdoutLine: {'line': b'copying lab1/hello.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build/lib/lab1\n'}
+[1.639516] (lab2) StdoutLine: {'line': b'copying lab2/listener.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2\n'}
+[1.642361] (lab3) StdoutLine: {'line': b'running install\n'}
+[1.642809] (lab3) StdoutLine: {'line': b'running install_lib\n'}
+[1.644025] (lab1) StdoutLine: {'line': b'running install\n'}
+[1.644997] (lab1) StdoutLine: {'line': b'running install_lib\n'}
+[1.645688] (lab2) StdoutLine: {'line': b'copying lab2/talker.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2\n'}
+[1.646911] (lab3) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages/lab3\n'}
+[1.648618] (lab3) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build/lib/lab3/__init__.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages/lab3\n'}
+[1.649537] (lab1) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1\n'}
+[1.651447] (lab1) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build/lib/lab1/__init__.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1\n'}
+[1.651910] (lab2) StdoutLine: {'line': b'copying lab2/numeric_listener.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2\n'}
+[1.653368] (lab3) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build/lib/lab3/firstwalk.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages/lab3\n'}
+[1.656651] (lab1) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build/lib/lab1/hello.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1\n'}
+[1.657948] (lab2) StdoutLine: {'line': b'copying lab2/numeric_talker.py -> /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2\n'}
+[1.662804] (lab3) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages/lab3/__init__.py to __init__.cpython-310.pyc\n'}
+[1.664472] (lab2) StdoutLine: {'line': b'running install\n'}
+[1.665464] (lab2) StdoutLine: {'line': b'running install_lib\n'}
+[1.665686] (lab1) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1/__init__.py to __init__.cpython-310.pyc\n'}
+[1.670264] (lab3) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages/lab3/firstwalk.py to firstwalk.cpython-310.pyc\n'}
+[1.670860] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2\n'}
+[1.672320] (lab1) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1/hello.py to hello.cpython-310.pyc\n'}
+[1.672601] (lab2) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2/__init__.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2\n'}
+[1.677764] (lab2) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2/listener.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2\n'}
+[1.679715] (lab3) StdoutLine: {'line': b'running install_data\n'}
+[1.680048] (lab1) StdoutLine: {'line': b'running install_data\n'}
+[1.682082] (lab1) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/ament_index\n'}
+[1.682490] (lab3) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/ament_index\n'}
+[1.682890] (lab1) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/ament_index/resource_index\n'}
+[1.683171] (lab3) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/ament_index/resource_index\n'}
+[1.684223] (lab2) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2/talker.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2\n'}
+[1.684794] (lab3) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/ament_index/resource_index/packages\n'}
+[1.685111] (lab1) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/ament_index/resource_index/packages\n'}
+[1.687333] (lab1) StdoutLine: {'line': b'copying resource/lab1 -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/ament_index/resource_index/packages\n'}
+[1.687728] (lab3) StdoutLine: {'line': b'copying resource/lab3 -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/ament_index/resource_index/packages\n'}
+[1.690930] (lab2) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2/numeric_listener.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2\n'}
+[1.692197] (lab1) StdoutLine: {'line': b'copying package.xml -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1\n'}
+[1.692545] (lab3) StdoutLine: {'line': b'copying package.xml -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3\n'}
+[1.696972] (lab2) StdoutLine: {'line': b'copying /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build/lib/lab2/numeric_talker.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2\n'}
+[1.697292] (lab1) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.697572] (lab3) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.704244] (lab1) StdoutLine: {'line': b'Copying ../build/lab1/lab1.egg-info to /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info\n'}
+[1.705077] (lab3) StdoutLine: {'line': b'Copying ../build/lab3/lab3.egg-info to /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages/lab3-0.0.0-py3.10.egg-info\n'}
+[1.707063] (lab2) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/__init__.py to __init__.cpython-310.pyc\n'}
+[1.713630] (-) TimerEvent: {}
+[1.714515] (lab2) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/listener.py to listener.cpython-310.pyc\n'}
+[1.723127] (lab2) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/talker.py to talker.cpython-310.pyc\n'}
+[1.732204] (lab2) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/numeric_listener.py to numeric_listener.cpython-310.pyc\n'}
+[1.739892] (lab2) StdoutLine: {'line': b'byte-compiling /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/numeric_talker.py to numeric_talker.cpython-310.pyc\n'}
+[1.747034] (lab2) StdoutLine: {'line': b'running install_data\n'}
+[1.749614] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/ament_index\n'}
+[1.750410] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/ament_index/resource_index\n'}
+[1.751837] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/ament_index/resource_index/packages\n'}
+[1.754654] (lab2) StdoutLine: {'line': b'copying resource/lab2 -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/ament_index/resource_index/packages\n'}
+[1.760289] (lab2) StdoutLine: {'line': b'copying package.xml -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2\n'}
+[1.766650] (lab2) StdoutLine: {'line': b'creating /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/launch\n'}
+[1.769228] (lab2) StdoutLine: {'line': b'copying launch/chatter.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/launch\n'}
+[1.771533] (lab1) StdoutLine: {'line': b'running install_scripts\n'}
+[1.773241] (lab3) StdoutLine: {'line': b'running install_scripts\n'}
+[1.776185] (lab2) StdoutLine: {'line': b'copying launch/numeric_chatter.py -> /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/launch\n'}
+[1.782023] (lab2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.787976] (lab2) StdoutLine: {'line': b'Copying ../build/lab2/lab2.egg-info to /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2-0.0.0-py3.10.egg-info\n'}
+[1.803143] (lab3) StdoutLine: {'line': b'Installing firstwalk script to /uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/lab3\n'}
+[1.803671] (lab1) StdoutLine: {'line': b'Installing hello script to /uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/lab1\n'}
+[1.807396] (lab3) StdoutLine: {'line': b"writing list of installed files to '/uolstore/home/users/el22mg/ros2_ws/src/build/lab3/install.log'\n"}
+[1.808208] (lab1) StdoutLine: {'line': b"writing list of installed files to '/uolstore/home/users/el22mg/ros2_ws/src/build/lab1/install.log'\n"}
+[1.813704] (-) TimerEvent: {}
+[1.823551] (lab3) CommandEnded: {'returncode': 0}
+[1.841165] (lab2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.861980] (lab2) StdoutLine: {'line': b'Installing listener script to /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/lab2\n'}
+[1.865931] (lab2) StdoutLine: {'line': b'Installing numeric_listener script to /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/lab2\n'}
+[1.870149] (lab2) StdoutLine: {'line': b'Installing numeric_talker script to /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/lab2\n'}
+[1.873199] (lab2) StdoutLine: {'line': b'Installing talker script to /uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/lab2\n'}
+[1.876967] (lab2) StdoutLine: {'line': b"writing list of installed files to '/uolstore/home/users/el22mg/ros2_ws/src/build/lab2/install.log'\n"}
+[1.909459] (lab3) JobEnded: {'identifier': 'lab3', 'rc': 0}
+[1.917189] (-) TimerEvent: {}
+[1.917476] (lab2) CommandEnded: {'returncode': 0}
+[2.012031] (lab2) JobEnded: {'identifier': 'lab2', 'rc': 0}
+[2.021930] (-) TimerEvent: {}
+[2.022183] (lab1) CommandEnded: {'returncode': 0}
+[2.104279] (lab1) JobEnded: {'identifier': 'lab1', 'rc': 0}
+[2.122073] (-) TimerEvent: {}
+[2.222538] (-) TimerEvent: {}
+[2.323032] (-) TimerEvent: {}
+[2.423694] (-) TimerEvent: {}
+[2.524225] (-) TimerEvent: {}
+[2.624719] (-) TimerEvent: {}
+[2.725295] (-) TimerEvent: {}
+[2.825993] (-) TimerEvent: {}
+[2.926663] (-) TimerEvent: {}
+[3.027221] (-) TimerEvent: {}
+[3.127839] (-) TimerEvent: {}
+[3.228408] (-) TimerEvent: {}
+[3.329098] (-) TimerEvent: {}
+[3.429638] (-) TimerEvent: {}
+[3.530129] (-) TimerEvent: {}
+[3.630671] (-) TimerEvent: {}
+[3.731250] (-) TimerEvent: {}
+[3.831935] (-) TimerEvent: {}
+[3.932463] (-) TimerEvent: {}
+[4.032955] (-) TimerEvent: {}
+[4.133385] (-) TimerEvent: {}
+[4.233955] (-) TimerEvent: {}
+[4.334688] (-) TimerEvent: {}
+[4.435221] (-) TimerEvent: {}
+[4.535733] (-) TimerEvent: {}
+[4.636194] (-) TimerEvent: {}
+[4.736651] (-) TimerEvent: {}
+[4.827534] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.828143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.836773] (-) TimerEvent: {}
+[4.937325] (-) TimerEvent: {}
+[5.037915] (-) TimerEvent: {}
+[5.138386] (-) TimerEvent: {}
+[5.238853] (-) TimerEvent: {}
+[5.339430] (-) TimerEvent: {}
+[5.440022] (-) TimerEvent: {}
+[5.540693] (-) TimerEvent: {}
+[5.641347] (-) TimerEvent: {}
+[5.741904] (-) TimerEvent: {}
+[5.842395] (-) TimerEvent: {}
+[5.923026] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.923751] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.942523] (-) TimerEvent: {}
+[5.969408] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.969656] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.042675] (-) TimerEvent: {}
+[6.143186] (-) TimerEvent: {}
+[6.243685] (-) TimerEvent: {}
+[6.344441] (-) TimerEvent: {}
+[6.445155] (-) TimerEvent: {}
+[6.545672] (-) TimerEvent: {}
+[6.646151] (-) TimerEvent: {}
+[6.723493] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.724723] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.746238] (-) TimerEvent: {}
+[6.752005] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.752913] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.753471] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.754064] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.771571] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.771893] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.801184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.801410] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.846370] (-) TimerEvent: {}
+[6.946889] (-) TimerEvent: {}
+[7.047466] (-) TimerEvent: {}
+[7.147961] (-) TimerEvent: {}
+[7.182019] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.182499] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.212315] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.212514] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.212898] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.213237] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.213781] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.213953] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.248155] (-) TimerEvent: {}
+[7.295002] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[7.295630] (turtlebot3_gazebo) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[7.295849] (turtlebot3_gazebo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[7.296179] (turtlebot3_gazebo) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[7.296319] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[7.296487] (turtlebot3_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[7.296654] (turtlebot3_gazebo) StderrLine: {'line': b'  any of the following names:\n'}
+[7.296802] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[7.297007] (turtlebot3_gazebo) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[7.297150] (turtlebot3_gazebo) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[7.297390] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[7.297538] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[7.297695] (turtlebot3_fake_node) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[7.297846] (turtlebot3_fake_node) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[7.297966] (turtlebot3_fake_node) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[7.298080] (turtlebot3_fake_node) StderrLine: {'line': b'\n'}
+[7.298187] (turtlebot3_fake_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[7.298332] (turtlebot3_fake_node) StderrLine: {'line': b'  any of the following names:\n'}
+[7.298438] (turtlebot3_fake_node) StderrLine: {'line': b'\n'}
+[7.298543] (turtlebot3_fake_node) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[7.298658] (turtlebot3_fake_node) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[7.298775] (turtlebot3_fake_node) StderrLine: {'line': b'\n'}
+[7.298897] (turtlebot3_fake_node) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[7.299015] (turtlebot3_fake_node) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[7.299124] (turtlebot3_fake_node) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[7.299261] (turtlebot3_fake_node) StderrLine: {'line': b'  has been installed.\n'}
+[7.299374] (turtlebot3_fake_node) StderrLine: {'line': b'\n'}
+[7.299481] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[0m\n'}
+[7.299628] (turtlebot3_gazebo) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[7.299739] (turtlebot3_gazebo) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[7.299886] (turtlebot3_gazebo) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[7.299996] (turtlebot3_gazebo) StderrLine: {'line': b'  has been installed.\n'}
+[7.300102] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[7.300258] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[7.300377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.300523] (turtlebot3_gazebo) StdoutLine: {'line': b'See also "/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[7.300676] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.300845] (turtlebot3_fake_node) StdoutLine: {'line': b'See also "/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_fake_node/CMakeFiles/CMakeOutput.log".\n'}
+[7.311327] (turtlebot3_fake_node) CommandEnded: {'returncode': 1}
+[7.329157] (turtlebot3_gazebo) CommandEnded: {'returncode': 1}
+[7.348250] (-) TimerEvent: {}
+[7.413461] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 1}
+[7.419733] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 'SIGINT'}
+[7.425485] (turtlebot3_simulations) JobSkipped: {'identifier': 'turtlebot3_simulations'}
+[7.425585] (-) EventReactorShutdown: {}

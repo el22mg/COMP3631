@@ -1,0 +1,311 @@
+[2.921s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.921s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1a9def9c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1a9e1b63b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1a9e1b63b0>>)
+[3.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/uolstore/home/users/el22mg/ros2_ws/src'
+[3.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['ignore', 'ignore_ament_install']
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ignore'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ignore_ament_install'
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['colcon_pkg']
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'colcon_pkg'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['colcon_meta']
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'colcon_meta'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['ros']
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ros'
+[3.176s] DEBUG:colcon.colcon_core.package_identification:Package 'lab1' with type 'ros.ament_python' and name 'lab1'
+[3.180s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ignore', 'ignore_ament_install']
+[3.180s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore'
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore_ament_install'
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_pkg']
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_pkg'
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_meta']
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_meta'
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ros']
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ros'
+[3.185s] DEBUG:colcon.colcon_core.package_identification:Package 'lab2' with type 'ros.ament_python' and name 'lab2'
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['ignore', 'ignore_ament_install']
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'ignore'
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'ignore_ament_install'
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['colcon_pkg']
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'colcon_pkg'
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['colcon_meta']
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'colcon_meta'
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['ros']
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'ros'
+[3.195s] DEBUG:colcon.colcon_core.package_identification:Package 'lab3' with type 'ros.ament_python' and name 'lab3'
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.200s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ignore'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ignore_ament_install'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['colcon_pkg']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'colcon_pkg'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['colcon_meta']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'colcon_meta'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['ros']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ros'
+[3.205s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['cmake', 'python']
+[3.205s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'cmake'
+[3.205s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'python'
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['python_setup_py']
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'python_setup_py'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[3.210s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[3.210s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[3.210s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[3.210s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[3.211s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[3.211s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[3.216s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[3.228s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[3.237s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[3.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_args' from command line to 'None'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target' from command line to 'None'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_first' from command line to 'False'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_force_configure' from command line to 'False'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'ament_cmake_args' from command line to 'None'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[3.449s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.449s] DEBUG:colcon.colcon_core.verb:Building package 'lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1', 'merge_install': False, 'path': '/uolstore/home/users/el22mg/ros2_ws/src/lab1', 'symlink_install': False, 'test_result_base': None}
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_args' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_first' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_force_configure' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'ament_cmake_args' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.453s] DEBUG:colcon.colcon_core.verb:Building package 'lab2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2', 'merge_install': False, 'path': '/uolstore/home/users/el22mg/ros2_ws/src/lab2', 'symlink_install': False, 'test_result_base': None}
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_args' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_target' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_clean_cache' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_clean_first' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_force_configure' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'ament_cmake_args' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'catkin_cmake_args' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.457s] DEBUG:colcon.colcon_core.verb:Building package 'lab3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/users/el22mg/ros2_ws/src/build/lab3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3', 'merge_install': False, 'path': '/uolstore/home/users/el22mg/ros2_ws/src/lab3', 'symlink_install': False, 'test_result_base': None}
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.461s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.461s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.465s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.469s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_simulations', 'merge_install': False, 'path': '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[3.473s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.477s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[3.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node'
+[3.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[3.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[3.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.543s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/uolstore/home/users/el22mg/ros2_ws/src/lab1' with build type 'ament_python'
+[3.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'ament_prefix_path')
+[3.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/hook/ament_prefix_path.ps1'
+[3.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/hook/ament_prefix_path.dsv'
+[3.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/hook/ament_prefix_path.sh'
+[3.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.592s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/uolstore/home/users/el22mg/ros2_ws/src/lab2' with build type 'ament_python'
+[3.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'ament_prefix_path')
+[3.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.ps1'
+[3.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.dsv'
+[3.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.sh'
+[3.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.639s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/uolstore/home/users/el22mg/ros2_ws/src/lab3' with build type 'ament_python'
+[3.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3', 'ament_prefix_path')
+[3.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/hook/ament_prefix_path.ps1'
+[3.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/hook/ament_prefix_path.dsv'
+[3.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/hook/ament_prefix_path.sh'
+[3.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_fake_node': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node
+[3.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_gazebo': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_gazebo
+[3.931s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/uolstore/home/users/el22mg/ros2_ws/src/lab1'
+[3.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.106s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/uolstore/home/users/el22mg/ros2_ws/src/lab2'
+[4.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.288s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/uolstore/home/users/el22mg/ros2_ws/src/lab3'
+[4.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/users/el22mg/ros2_ws/src/lab2': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/el22mg/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build install --record /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[4.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/users/el22mg/ros2_ws/src/lab1': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/el22mg/ros2_ws/src/build/lab1/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1 build --build-base /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build install --record /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/install.log --single-version-externally-managed
+[4.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/users/el22mg/ros2_ws/src/lab3': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/el22mg/ros2_ws/src/build/lab3/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/lab3 build --build-base /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build install --record /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/install.log --single-version-externally-managed
+[5.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/users/el22mg/ros2_ws/src/lab3' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/el22mg/ros2_ws/src/build/lab3/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/lab3 build --build-base /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/build install --record /uolstore/home/users/el22mg/ros2_ws/src/build/lab3/install.log --single-version-externally-managed
+[5.311s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3' for CMake module files
+[5.318s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3' for CMake config files
+[5.332s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib'
+[5.333s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/bin'
+[5.333s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/pkgconfig/lab3.pc'
+[5.334s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/lib/python3.10/site-packages'
+[5.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3', 'pythonpath')
+[5.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/hook/pythonpath.ps1'
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/hook/pythonpath.dsv'
+[5.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/hook/pythonpath.sh'
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/bin'
+[5.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab3)
+[5.364s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/package.ps1'
+[5.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/package.dsv'
+[5.373s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/package.sh'
+[5.376s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/package.bash'
+[5.379s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/lab3/package.zsh'
+[5.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/uolstore/home/users/el22mg/ros2_ws/src/install/lab3/share/colcon-core/packages/lab3)
+[5.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/users/el22mg/ros2_ws/src/lab2' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/el22mg/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/build install --record /uolstore/home/users/el22mg/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[5.404s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2' for CMake module files
+[5.412s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2' for CMake config files
+[5.426s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib'
+[5.427s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/bin'
+[5.428s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/pkgconfig/lab2.pc'
+[5.429s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/lib/python3.10/site-packages'
+[5.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'pythonpath')
+[5.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.ps1'
+[5.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.dsv'
+[5.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.sh'
+[5.455s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/bin'
+[5.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2)
+[5.466s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/package.ps1'
+[5.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/package.dsv'
+[5.473s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/package.sh'
+[5.476s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/package.bash'
+[5.480s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/lab2/package.zsh'
+[5.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/uolstore/home/users/el22mg/ros2_ws/src/install/lab2/share/colcon-core/packages/lab2)
+[5.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/users/el22mg/ros2_ws/src/lab1' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/el22mg/ros2_ws/src/build/lab1/prefix_override:/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1 build --build-base /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/build install --record /uolstore/home/users/el22mg/ros2_ws/src/build/lab1/install.log --single-version-externally-managed
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1' for CMake module files
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1' for CMake config files
+[5.529s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib'
+[5.530s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/bin'
+[5.530s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/pkgconfig/lab1.pc'
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/lib/python3.10/site-packages'
+[5.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'pythonpath')
+[5.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/hook/pythonpath.ps1'
+[5.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/hook/pythonpath.dsv'
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/hook/pythonpath.sh'
+[5.552s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/bin'
+[5.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/package.ps1'
+[5.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/package.dsv'
+[5.568s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/package.sh'
+[5.571s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/package.bash'
+[5.574s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/lab1/package.zsh'
+[5.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/uolstore/home/users/el22mg/ros2_ws/src/install/lab1/share/colcon-core/packages/lab1)
+[10.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_fake_node' returned '1': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node
+[10.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/users/el22mg/ros2_ws/src/build/turtlebot3_gazebo' returned '1': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/el22mg/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_gazebo
+[10.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[10.857s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node' for CMake module files
+[10.857s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node' for CMake config files
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/bin'
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/bin'
+[10.866s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[10.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[10.875s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[10.879s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[10.883s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[10.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/uolstore/home/users/el22mg/ros2_ws/src/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[10.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[10.903s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.094s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.133s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/users/el22mg/ros2_ws/src/install/local_setup.ps1'
+[11.144s] INFO:colcon.colcon_core.shell:Creating prefix util module '/uolstore/home/users/el22mg/ros2_ws/src/install/_local_setup_util_ps1.py'
+[11.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/users/el22mg/ros2_ws/src/install/setup.ps1'
+[11.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/users/el22mg/ros2_ws/src/install/local_setup.sh'
+[11.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/uolstore/home/users/el22mg/ros2_ws/src/install/_local_setup_util_sh.py'
+[11.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/users/el22mg/ros2_ws/src/install/setup.sh'
+[11.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/users/el22mg/ros2_ws/src/install/local_setup.bash'
+[11.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/users/el22mg/ros2_ws/src/install/setup.bash'
+[11.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/users/el22mg/ros2_ws/src/install/local_setup.zsh'
+[11.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/users/el22mg/ros2_ws/src/install/setup.zsh'
