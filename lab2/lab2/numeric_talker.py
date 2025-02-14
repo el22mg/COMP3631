@@ -22,7 +22,7 @@ class NumericTalker(Node):
         self.publisher.publish(msg)
         self.get_logger().info(f'Publishing: {msg.data}')
         self.counter += 1
-        
+
 
     def numeric_talker_callback(self):
         msgNT = Int8()
